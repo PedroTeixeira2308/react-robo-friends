@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React, {Component} from 'react';
+import CardList from './components/CardList';
+import SearchBox from './components/SearchBox.jsx'
+import {robots} from './data/robots.js'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+class App extends Component  {
+  constructor() {
+    super()
+    this.state =  {
+      robots: robots,
+      searchfield: ''
+    }
+  }
+
+  onSearchChange = (event) =>  {
+    this.setState({searchfield: event.target.value})
+  }
+
+
+  render() {
+    const filteredRobots = this.state.robots.filter(robots => {
+      return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+    })
+    return(
+        <div className='tc'>
+          <h1 className='f1'>RoboFriends</h1>
+          <SearchBox searchChange={this.onSearchChange}/>
+          <CardList robots={filteredRobots}/>
+        </div>
+      );
+  }
 }
 
-export default App
+export default App;

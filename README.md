@@ -1,16 +1,57 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🤖 React RoboFriends
 
-Currently, two official plugins are available:
+A small React application built with **Vite** and **Functional Components** to strengthen core React concepts — component structure, props, and one-way data flow.  
+This project focuses on writing clean, modular, and reusable code while understanding how React works under the hood.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** (Functional Components)
+- **Vite** (Build Tool)
+- **JavaScript (ES6+)**
+- **Tachyons CSS**
+- **RoboHash API**
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I Learned
+
+- Component-based architecture  
+- Passing and destructuring props  
+- Rendering lists with `.map()`  
+- One-way data flow in React  
+- Clean and readable JSX structure  
+
+## Setup
+
+```bash
+git clone https://github.com/PedroTeixeira2308/react-robo-friends.git
+
+cd react-robo-friends
+
+npm install
+npm run dev
+```
+## Project Structure
+```markdown
+src/
+┣ assets/
+┣ components/
+┃ ┣ Card.jsx
+┃ ┗ CardList.jsx
+┣ data/
+┃ ┗ robots.js
+┣ index.css
+┗ main.jsx
+```
+## Author
+
+Pedro Teixeira — Full-Stack Developer (C#, .NET & React)
+[GitHub](https://github.com/PedroTeixeira2308) | [LinkedIn](https://www.linkedin.com/in/pedro-teixeira-967615347
+)
+
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
+

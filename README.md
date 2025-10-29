@@ -1,7 +1,7 @@
 
 # 🤖 React RoboFriends
 
-A small React application built with **Vite** and **Class Components** to strengthen core React concepts — component structure, props, and one-way data flow.  
+A small React application built with **Vite** and **Functional Components** to strengthen core React concepts — component structure, props, and one-way data flow.  
 This project focuses on writing clean, modular, and reusable code while understanding how React works under the hood.
 
 

@@ -40,15 +40,17 @@ npm run dev
 ```markdown
 src/
 ┣ assets/
-┣ components/
+┣ components/                      # Pure components (stateless)
 ┃ ┣ Card.jsx
 ┃ ┣ CardList.jsx
 ┃ ┣ Scroll.jsx
 ┃ ┗ SearchBox.jsx
+┣ comtainers/                      # Smart components (with state and lifecycle)
+┃ ┣ App.css
+┃ ┣ App.jsx
+┃ ┗ SEGA.woff
 ┣ data/
 ┃ ┗ robots.js
-┣ App.css
-┣ App.jsx
 ┣ index.css
 ┗ main.jsx
 ```

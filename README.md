@@ -11,7 +11,8 @@ This project focuses on writing clean, modular, and reusable code while understa
 - **Vite** (Build Tool)
 - **JavaScript (ES6+)**
 - **Tachyons CSS**
-- **RoboHash API**
+- **JSONPlaceholder API** (mock user data)
+- **RoboHash** (dynamic robot avatars)
 
 
 ## What I Learned
@@ -19,7 +20,10 @@ This project focuses on writing clean, modular, and reusable code while understa
 - Component-based architecture  
 - Passing and destructuring props  
 - Rendering lists with `.map()`  
+- Managing state and lifecycle methods `(componentDidMount)`
+- Performing HTTP requests with `fetch()`
 - One-way data flow in React  
+- Handling loading states and conditional rendering
 - Clean and readable JSX structure  
 
 ## Setup
@@ -41,9 +45,23 @@ src/
 ┃ ┗ CardList.jsx
 ┣ data/
 ┃ ┗ robots.js
+┣ App.css
+┣ App.jsx
 ┣ index.css
 ┗ main.jsx
 ```
+
+# Features
+
+- Search robots by name
+
+- Fetch user data from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users)
+
+- Component-based and scalable architecture
+
+- Instant reload with Vite
+
+
 ## Author
 
 Pedro Teixeira — Full-Stack Developer (C#, .NET & React)

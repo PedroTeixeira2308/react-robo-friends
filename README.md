@@ -42,7 +42,9 @@ src/
 ┣ assets/
 ┣ components/
 ┃ ┣ Card.jsx
-┃ ┗ CardList.jsx
+┃ ┣ CardList.jsx
+┃ ┣ Scroll.jsx
+┃ ┗ SearchBox.jsx
 ┣ data/
 ┃ ┗ robots.js
 ┣ App.css
@@ -51,7 +53,7 @@ src/
 ┗ main.jsx
 ```
 
-# Features
+## Features
 
 - Search robots by name
 
@@ -69,7 +71,7 @@ Pedro Teixeira — Full-Stack Developer (C#, .NET & React)
 )
 
 
-## Licença
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 

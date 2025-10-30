@@ -5,7 +5,7 @@ A small React application built with **Vite** and **Functional Components** to s
 This project focuses on writing clean, modular, and reusable code while understanding how React works under the hood.
 
 
-**Live Demo:** [View Project Here](https://pedroteixeira2308.github.io/react-robo-friends/)
+**Live Demo:** [View Project Here ↗](https://pedroteixeira2308.github.io/react-robo-friends/)
 
 ## Tech Stack
 

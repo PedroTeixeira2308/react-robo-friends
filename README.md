@@ -1,8 +1,14 @@
 
-# 🤖 React RoboFriends
+# 🤖 React RoboFriends (v2 — Hooks Edition)
 
-A small React application built with **Vite** and **Functional Components** to strengthen core React concepts — component structure, props, and one-way data flow.  
-This project focuses on writing clean, modular, and reusable code while understanding how React works under the hood.
+![React](https://img.shields.io/badge/React-Hooks-blue?logo=react)
+![Version](https://img.shields.io/badge/version-2.0-green)
+![Vite](https://img.shields.io/badge/Built%20with-Vite-orange?logo=vite)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+
+A modernized version of the original RoboFriends app — now built with **React Hooks** and **Functional Components**.  
+This project demonstrates how to migrate from class-based components to hooks, applying **`useState`**, **`useEffect`** to manage state and side effects in a clean, declarative way.
 
 
 **Live Demo:** [View Project Here ↗](https://pedroteixeira2308.github.io/react-robo-friends/)
@@ -17,16 +23,25 @@ This project focuses on writing clean, modular, and reusable code while understa
 - **RoboHash** (dynamic robot avatars)
 
 
+## Version History
+
+| Version | Description |
+|----------|--------------|
+| **v1.0** | Initial version using **Class Components** and `componentDidMount()` |
+| **v2.0** | Full refactor to **Hooks** (`useState`, `useEffect`), better state separation, cleaner architecture |
+
+---
+
 ## What I Learned
 
-- Component-based architecture  
-- Passing and destructuring props  
-- Rendering lists with `.map()`  
-- Managing state and lifecycle methods `(componentDidMount)`
-- Performing HTTP requests with `fetch()`
-- One-way data flow in React  
-- Handling loading states and conditional rendering
-- Clean and readable JSX structure  
+- Rewriting **class components** into **functional components with Hooks**
+- Using **`useState`** to manage local state
+- Implementing **`useEffect`** to handle side effects (data fetching, lifecycle equivalents)
+- Avoiding **infinite re-renders** with dependency arrays
+- Understanding **component reactivity** and dependency management
+- Creating cleaner, smaller, and more **reusable components**
+- Comparing lifecycle methods vs hooks equivalents (`componentDidMount` → `useEffect`)
+
 
 ## Setup
 
@@ -47,7 +62,7 @@ src/
 ┃ ┣ CardList.jsx
 ┃ ┣ Scroll.jsx
 ┃ ┗ SearchBox.jsx
-┣ comtainers/                      # Smart components (with state and lifecycle)
+┣ comtainers/                      # Smart components (stateful with hooks)
 ┃ ┣ App.css
 ┃ ┣ App.jsx
 ┃ ┗ SEGA.woff
@@ -63,7 +78,11 @@ src/
 
 - Fetch user data from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users)
 
-- Component-based and scalable architecture
+- State management with **`useState`**
+
+- Side effects with **`useEffect`** (replacing **`componentDidMount`**)
+
+- Clean, modular, and scalable architecture
 
 - Instant reload with Vite
 

@@ -2,7 +2,7 @@
 # 🤖 React RoboFriends (v2 — Hooks Edition)
 
 ![React](https://img.shields.io/badge/React-Hooks-blue?logo=react)
-![Version](https://img.shields.io/badge/version-2.0-green)
+![Version](https://img.shields.io/badge/version-2.0.0-green)
 ![Vite](https://img.shields.io/badge/Built%20with-Vite-orange?logo=vite)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 

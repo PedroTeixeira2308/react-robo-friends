@@ -9,7 +9,7 @@ This project focuses on writing clean, modular, and reusable code while understa
 
 ## Tech Stack
 
-- **React.js** (Functional Components)
+- **React.js** (Hooks + Functional Components)
 - **Vite** (Build Tool)
 - **JavaScript (ES6+)**
 - **Tachyons CSS**
